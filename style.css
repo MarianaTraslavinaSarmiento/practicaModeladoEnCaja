@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'bahnschrift';
+    text-decoration: none; 
+
+}
+
+.container{
+
+    justify-content: flex-end;
+    display: flex;
+    align-items: center
+    
+}
+
+.left{
+
+    position: absolute;
+    left: 0;
+    background: purple;
+    width: 70%;
+    height: 100%;
+
+
+
+
+
+}
