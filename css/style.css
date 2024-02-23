@@ -2,30 +2,84 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'bahnschrift';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none; 
 
 }
 body{
 
-    background-color: #94d9e9;
+    height: 100vh;
+    background-color: #93d9e9;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
-.cajas{
 
-    display:flex;
-    width: 30vw;
-    height: 70vh;
+.caja{
+
+    display: flex;
     background-color: #fff;
+    flex-direction: column;
+    height: 480px;
+    margin: 15px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 6px 10px #717171;
+
+}
+
+
+.caja h1{
+
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
     
+
+}
+
+.caja p{
+
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.caja p:nth-child(2){
+    margin-top: 60px
 }
 
 .subcaja{
 
+    justify-content: center;
     background-color: #fa8071;
     display: flex;
     flex-direction: column;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 12px;
+
+
+}
+button{
+
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+    width: 120px;
+    margin: auto;
+    margin-top: 100px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+
+
 }
