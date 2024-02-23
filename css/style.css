@@ -6,25 +6,26 @@
     text-decoration: none; 
 
 }
+body{
 
-.container{
-
-    justify-content: flex-end;
+    background-color: #94d9e9;
     display: flex;
-    align-items: center
+    align-items: center;
+    justify-content: center;
+}
+
+.cajas{
+
+    display:flex;
+    width: 30vw;
+    height: 70vh;
+    background-color: #fff;
     
 }
 
-.left{
+.subcaja{
 
-    position: absolute;
-    left: 0;
-    background: purple;
-    width: 70%;
-    height: 100%;
-
-
-
-
-
+    background-color: #fa8071;
+    display: flex;
+    flex-direction: column;
 }
