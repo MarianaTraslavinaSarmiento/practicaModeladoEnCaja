@@ -2,29 +2,23 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'bahnschrift';
     text-decoration: none; 
 
 }
 
 .container{
 
-    justify-content: flex-end;
+    height: 100vh;
     display: flex;
-    align-items: center
-    
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
 }
 
-.left{
+.caja{
 
-    position: absolute;
-    left: 0;
-    background: purple;
-    width: 70%;
-    height: 100%;
-
-
-
-
-
+    display: flex;
+    border: 1px solid #000
+    
 }
