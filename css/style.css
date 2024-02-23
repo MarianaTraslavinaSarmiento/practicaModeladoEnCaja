@@ -6,6 +6,17 @@
 
 }
 
+@font-face {
+    font-family: fuenteTitulo;
+    src: url(/storage/fuentes/coolvetica\ rg.otf);
+}
+
+@font-face {
+    font-family: fuenteParrafo;
+    src: url(/storage/fuentes/Roboto-Condensed.ttf);
+}
+
+
 .container{
 
     height: 100vh;
@@ -13,12 +24,32 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: #BBBB;
 
 }
 
 .caja{
 
     display: flex;
-    border: 1px solid #000
-    
+    flex-direction: column;
+    width:auto;
+    height: auto;
+    padding: 20px;
+    background-color: #e4e1e1;
+    border-radius: 5px
+}
+
+.caja p{
+
+    width: 30vw;
+    font-family: fuenteParrafo;
+    font-size: 20px
+}
+
+.caja h1{
+
+    padding-bottom: 10px;
+    font-family: fuenteTitulo;
+    font-size: 40px;
+
 }
