@@ -27,6 +27,7 @@ body{
     width: 300px;
     border-radius: 10px;
     box-shadow: 5px 6px 10px #717171;
+    justify-content: space-between;
 
 }
 
@@ -66,6 +67,9 @@ body{
 
 
 }
+
+
+
 button{
 
     display: flex;
@@ -74,12 +78,10 @@ button{
     align-items: center;
     background: #f0f0f0;
     width: 120px;
-    margin: auto;
     margin-top: 100px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    position: relative;
 
 
 }
