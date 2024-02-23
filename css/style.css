@@ -1,9 +1,16 @@
+@font-face {
+    font-family: "textoBotones";
+    src: url("/storage/fuentes/Utendo-Medium.ttf");
+}
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'bahnschrift';
     text-decoration: none; 
+    font-family: "textoBotones";
 
 }
 
@@ -14,7 +21,7 @@
     padding: 15px;
     width: 35vw;
     height: 400px;
-    border: 1px solid #000
+
     
 }
 
@@ -28,7 +35,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    font-size: 18px
+    font-size: 25px;
+    background-color: #bbbb;
+    box-shadow: 0px 3px 9px #bbb
 
 }
 
@@ -38,7 +47,14 @@
 
     border: 1px solid #000;
     padding: 10px;
-    font-size: 18px
-
+    font-size: 20px;
+    background-color: #fff;
+    box-shadow: 0px 5px 9px #bbb
     
+}
+
+
+.enlace a{
+    text-decoration: none;
+    color: #000;
 }
