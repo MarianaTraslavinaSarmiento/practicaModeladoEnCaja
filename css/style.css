@@ -2,29 +2,160 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'bahnschrift';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none; 
 
 }
 
-.container{
 
-    justify-content: flex-end;
+body{
+
+    width: 100vw;
     display: flex;
-    align-items: center
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenido{
+    width: 1000px;
+
+}
+.header{
+
+    display: flex;
+    height: 20vh;
+    background-color: #fa8071;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff
     
+}
+
+.header p{
+    
+    margin-top: 15px
+}
+
+.menu{
+
+    padding-left: 60px;
+    display: flex;
+    height: 7vh;
+    background-color: #1bbc9b;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+}
+
+a{
+    color: #fff
 }
 
 .left{
 
-    position: absolute;
-    left: 0;
-    background: purple;
+    display: flex;
+    gap: 60px;
+    
+}
+
+.language{
+
+    display: flex;
+    gap: 30px;
+    padding-right: 20px
+
+}
+
+main{
+    display: flex;
+}
+
+/* Parte izquierda */
+.lateral{
+    width: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    align-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.lateral h1{
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.lateral p{
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.lateral .caja400{
+    width: 260px;
+    height: 260px;
+    background-color: #ccc;
+    font-size: 30px;
+    color: #989898;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    display: flex;
+       
+}
+
+.lateral .cajaLateral{
+
+    width: 260px;
+    height: 120px;
+    background-color: #ccc;
+    font-size: 30px;
+    color: #989898;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    display: flex;
+    
+       
+}
+
+.blog{
+
+    padding:20px; 
     width: 70%;
-    height: 100%;
+}
 
+.blog h1{
+    margin-top: 5px;
+    font-size: 25px;   
+}
 
+.blog p{
 
+    margin-top: 12px
+}
 
+.blog hr{
+    margin-top: 20px
+}
 
+.blog h2{
+    margin-top: 15px;
+    font-size: 25px;
+}
+.blog .caja668{
+    width: 668px;
+    height: 200px;
+    background-color: #ccc;
+    font-size: 30px;
+    color: #989898;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    display: flex;
+       
 }
