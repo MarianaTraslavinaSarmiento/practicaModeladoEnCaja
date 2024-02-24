@@ -159,3 +159,12 @@ main{
     display: flex;
        
 }
+
+footer{
+
+    height: 80px;
+    background-color: #dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
