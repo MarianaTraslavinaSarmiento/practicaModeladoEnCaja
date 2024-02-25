@@ -113,29 +113,6 @@ body{
     font-size: 15px;
 }
 
-
-
-.right{
-
-    flex: 6;
-    height: 100%;
-    background-color: rgb(211, 208, 208);
-    display: flex;
-}
-
-.fila1{
-
-    display: flex;
-    justify-content: flex-start;
-    padding: 8px 10px;
-
-}
-
-.fila2{
-
-    padding-top: 0px
-}
-
 .MAIN{
 
     display: flex;
@@ -151,5 +128,72 @@ body{
     width: 100%;
     padding: 20px 20px 0px 20px;
     color: #8a8a8a
+
+}
+
+/* Lado derecho de la pagina */
+.right{
+
+    flex: 6;
+    height: 100%;
+    background-color: rgb(211, 208, 208);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.barraMenu{
+
+    background-color: #fff;
+    display: flex;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    
+}
+.barraMenu img{
+
+    width: 35px;
+    height: 30px;
+    padding-left: 9px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.boxAdministrador{
+
+    margin: 10px 20px 20px 20px;
+    font-size: 20px;
+}
+
+.boxAdministrador p{
+
+    margin-top: 8px
+}
+
+.charts{
+
+    margin: 20px;
+    gap: 20px;
+    display: flex;
+    height: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto
+
+}
+
+.chart{
+
+    flex: 1;
+    background-color: #bbb;
+    height: 25vh;
+    justify-content: center;;
+    gap: 20px;
+    border-radius: 10px;
+
+
 
 }
