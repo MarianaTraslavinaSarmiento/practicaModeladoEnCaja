@@ -3,17 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-}
-
-@font-face {
-    font-family: fuenteTitulo;
-    src: url(/storage/fuentes/coolvetica\ rg.otf);
-}
-
-@font-face {
-    font-family: fuenteParrafo;
-    src: url(/storage/fuentes/Roboto-Condensed.ttf);
 }
 
 
@@ -24,7 +15,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #BBBB;
+    background-color: #e4e1e1;
 
 }
 
@@ -35,21 +26,18 @@
     width:auto;
     height: auto;
     padding: 20px;
-    background-color: #e4e1e1;
-    border-radius: 5px
+    background-color: #cccaca
 }
 
 .caja p{
 
     width: 30vw;
-    font-family: fuenteParrafo;
-    font-size: 20px
+    font-size: 15px
 }
 
 .caja h1{
 
     padding-bottom: 10px;
-    font-family: fuenteTitulo;
-    font-size: 40px;
+    font-size: 20px;
 
 }
