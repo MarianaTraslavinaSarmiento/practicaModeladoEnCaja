@@ -7,13 +7,18 @@
 
 }
 
+@font-face {
+    font-family: fuenteMenu;
+    src: url(/storage/fuentes/fuenteMenu.ttf);
+}
+
 .container{
 
     height: 110px;
     background-color: #fff;
     display: flex;
-    box-shadow: 0px 3px 15px rgba(100, 100, 100, 0.5);
-    justify-content: space-around
+    justify-content: space-around;
+    
 }
 
 
@@ -52,6 +57,7 @@
     color: #898b8b;
     transition: 0.3s ease;
     justify-content: center;
+    font-family: fuenteMenu;
 }
 
 .menu a:hover{
@@ -68,6 +74,8 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    margin-right: 20px;
+    
 }
 
 .language{
@@ -80,7 +88,12 @@
     background-color: #a19e9d;
     color:white;
     cursor: pointer;
-    font-size: 20px;
-    
+    font-size: 20px;   
 
+}
+
+.language p{
+
+    font-family: fuenteMenu;
+    
 }
