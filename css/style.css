@@ -162,9 +162,19 @@ main{
 
 footer{
 
-    height: 80px;
+    height: 150px;
     background-color: #dddddd;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 1000px;
+
+}
+
+.espacioFooter{
+
+    height: 150px;
+    width: 1000px;
 }
