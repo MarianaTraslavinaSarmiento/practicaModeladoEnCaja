@@ -149,8 +149,9 @@ body{
     display: flex;
     height: 70px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding-left: 20px;
+    padding: 10px 30px 10px 20px
     
 }
 .barraMenu img{
@@ -162,6 +163,14 @@ body{
     justify-content: center;
     
 }
+
+.barraMenu :last-child{
+
+    width: 45px;
+    height: 35px;
+
+}
+
 
 .boxAdministrador{
 
